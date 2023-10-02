@@ -1,0 +1,158 @@
+/*body{
+    
+    background-color: #434244;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.item1{
+    width: 400px;
+}
+
+*/
+
+
+
+/*
+.zona__arrastre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    border: 5px dotted #9c9a9a;
+    background-color: #eee;
+    margin: 1rem;
+}
+
+.conteiner__carga{
+    display: none;
+    height: 25px;
+    margin: 1rem;
+    background-color: #eee;
+}
+.carga{
+    height: 25px;
+    width: 1%;
+    background-color: #0f0;
+}
+
+
+.conteiner__carga-activated{
+    display: block;
+}
+
+*/
+
+
+
+
+
+
+
+/*
+.conteiner{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item{
+    text-align: center;
+    
+    background-color: #fff;
+}
+
+.caja1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.caja2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.caja3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+*/
+
+
+
+
+.conteiner{
+    overflow: hidden;
+}
+
+.imagenes{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+
+}
+
+.imagen{
+    
+    transition:transform .3s ease ;
+}
+
+.close{
+    display: none;
+}
+
+.close-active{
+    display: block;
+}
+
+.button{
+    cursor: pointer;
+    position: absolute;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    left: 10px;
+    top: 10px;
+}
+
+.imagen:hover{
+    transform: scale(1.5);
+}
+
+.imagen-active{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(5,12,7,.90);
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.imagen-active > .img{
+    width: 500px;
+    height: 400px;
+}
